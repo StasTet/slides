@@ -1,0 +1,15 @@
+@import "../../styles/constants.scss";
+
+.slider-list {
+    // background-color: $sliderListBg;
+    background-color: black;
+    position: fixed;
+    top: $headerWidth;
+    left: 0;
+    bottom: 0;
+
+    &__inner {
+        position: absolute;
+        height: 100%;
+    }
+}

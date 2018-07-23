@@ -13,12 +13,19 @@
     "url": "git+https://github.com/StasTet/slides.git"
   },
   "author": "Tetin Stanislav",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/StasTet/slides/issues"
   },
   "homepage": "https://github.com/StasTet/slides#readme",
   "dependencies": {
+    "bootstrap": "^4.1.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "reactstrap": "^6.3.0"
+  },
+  "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.5",
@@ -34,8 +41,6 @@
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.2",
     "path": "^0.12.7",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
     "react-hot-loader": "^4.3.3",
     "sass-loader": "^7.0.3",
     "webpack": "^4.16.1",
