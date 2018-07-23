@@ -23,7 +23,7 @@ module.exports = {
                 collapseWhitespace: false
             },
             hash: true,
-            template: './static/index.html'
+            template: './public/index.html'
         }),
         // плагин для генерации отдельного .css файла в /build/
         new MiniCssExtractPlugin({
