@@ -16,15 +16,17 @@ module.exports = {
     },
     devtool : 'eval',
     plugins: [
-        new HtmlWebpackPlugin({ // плагин для  генерацияя шаблона в /build/
+        // плагин для  генерацияя шаблона в /build/
+        new HtmlWebpackPlugin({
             title: 'Slides',
             minify: {
                 collapseWhitespace: false
             },
             hash: true,
-            template: './static/index.html'
+            template: './public/index.html'
         }),
-        new MiniCssExtractPlugin({ // плагин для генерации отдельного .css файла в /build/
+        // плагин для генерации отдельного .css файла в /build/
+        new MiniCssExtractPlugin({
             filename: 'bundle.css'
         })
     ],
@@ -73,5 +75,4 @@ module.exports = {
             }
         ]
     },
-
 };
