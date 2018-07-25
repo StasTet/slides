@@ -14,9 +14,9 @@ module.exports = {
         compress: true,
         stats: 'minimal'
     },
-    devtool : 'eval',
+    devtool: 'eval',
     plugins: [
-        // плагин для  генерацияя шаблона в /build/
+        // плагин для  генерация шаблона в /build/
         new HtmlWebpackPlugin({
             title: 'Slides',
             minify: {
