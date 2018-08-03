@@ -12,9 +12,17 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, '/'),
         compress: true,
+        historyApiFallback: true,
         stats: 'minimal'
     },
-    devtool: 'eval',
+    devtool: 'source-map',
+    resolve: {
+        extensions: ['.js', '.jsx', '.json'],
+        modules: [
+            path.resolve(__dirname, './src'),
+            'node_modules'
+        ]
+    },
     plugins: [
         // плагин для  генерация шаблона в /build/
         new HtmlWebpackPlugin({

@@ -5,7 +5,7 @@
     ],
     "rules": {
         "eol-last": 2,
-        "semi": 2,
+        "semi": 1,
         "no-console": 1,
         "new-cap": 2,
         "no-use-before-define": 1,

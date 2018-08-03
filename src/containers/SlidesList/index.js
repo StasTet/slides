@@ -1,1 +1,0 @@
-export { SlidesList } from './SlidesList';

@@ -8,22 +8,25 @@
     "dev": "webpack --mode development",
     "prod": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StasTet/slides.git"
-  },
   "author": "Tetin Stanislav",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/StasTet/slides/issues"
-  },
-  "homepage": "https://github.com/StasTet/slides#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.1.2",
+    "history": "^4.7.2",
+    "normalizr": "^3.2.4",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "reactstrap": "^6.3.0"
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "reactstrap": "^6.3.0",
+    "redux": "^4.0.0",
+    "redux-form": "^7.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -42,6 +45,7 @@
     "node-sass": "^4.9.2",
     "path": "^0.12.7",
     "react-hot-loader": "^4.3.3",
+    "redux-devtools-extension": "^2.13.5",
     "sass-loader": "^7.0.3",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0",
